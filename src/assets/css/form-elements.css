@@ -1,0 +1,110 @@
+
+input[type="text"],
+input[type="password"],
+textarea,
+textarea.form-control {
+	height: 60px;
+	width: 60%;
+    margin: 0;
+    padding: 0 30px;
+    background: #c6c8c7;
+	background: rgba(198,200,199, 0.30);
+    border: none;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 50px;
+    color: rgba(255,255,255, 0.75);;
+	text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+textarea,
+textarea.form-control {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 30px;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+textarea.form-control:focus {
+	outline: 0;
+	background: #c6c8c7;
+	background: rgba(198,200,199, 0.30);
+
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+
+input[type="text"]:-moz-placeholder, input[type="password"]:-moz-placeholder,
+textarea:-moz-placeholder, textarea.form-control:-moz-placeholder { color: #FFF; opacity: 0.75; }
+
+input[type="text"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder,
+textarea:-ms-input-placeholder, textarea.form-control:-ms-input-placeholder { color: #FFF; opacity: 0.75; }
+
+input[type="text"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder, textarea.form-control::-webkit-input-placeholder { color: #FFF; opacity: 0.75; }
+
+select.form-control {
+	height: 35px;
+	width: auto;
+	min-width: 150px;
+    margin: 0;
+    padding: 0px 10px 0px 10px;
+    background: #82a5c0;
+	background: rgba(130,165,192, 1);
+    border: solid 1px #c6c8c7;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 14px;
+    line-height: 50px;
+    color: #000000;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+
+
+select.form-control:focus {
+	outline: 0;
+	background: #82a5c0;
+	background: rgba(130,165,192, 0.15);
+
+}
+button.btn {
+	height: 60px;
+	width: 60%!important;
+    margin: 0;
+    padding: 0 20px;
+    vertical-align: middle;
+    background: #00a9e7;
+    border: 0;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 50px;
+    color: #fff;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    -moz-border-radius: 0px; -webkit-border-radius: 0px; border-radius: 0px;
+    text-shadow: none;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+    -o-transition: all .3s; -moz-transition: all .3s; -webkit-transition: all .3s; -ms-transition: all .3s; transition: all .3s;
+}
+
+button.btn:hover { opacity: 0.6; color: #fff; }
+
+button.btn:active { outline: 0; opacity: 0.6; color: #fff; -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none; }
+
+button.btn:focus { outline: 0; opacity: 0.6; background: #00a9e7; color: #fff; }
+
+button.btn:active:focus, button.btn.active:focus { outline: 0; opacity: 0.6; background: #00609c; color: #fff; }
